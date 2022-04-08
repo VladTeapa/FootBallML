@@ -1,0 +1,6 @@
+Run these commands on windows
+
+python -m venv venv
+venv\Scripts\activate
+pip3 install torch~=1.7.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install mlagents==0.28.0
